@@ -8,11 +8,11 @@ $('#change-text').on('click', function () {
 });
 $('#fade-out').on('click', function () {
   // 不透明度を0にする（フェードアウトする）
-  $('#target').fadeOut(100, function () {
+  $('#target').fadeOut(3000, function () {
   });
 });
 $('#fade-in').on('click', function () {
   // 不透明度を1にする（フェードインする）
-  $('#target').fadeIn(100, function() {
+  $('#target').fadeIn(3000, function() {
   });
 });
